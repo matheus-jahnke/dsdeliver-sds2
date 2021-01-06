@@ -1,9 +1,11 @@
 import './App.css';
-
+import Hello from './Hello';
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>  
+      <Hello message="Matheus" />  
+      <Hello message="SDS2" />
+      <Hello message="DevS" />    
     </div>
   );
 }
