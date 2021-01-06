@@ -1,11 +1,9 @@
 import './App.css';
-import Hello from './Hello';
+import Counter from './Counter';
 function App() {
   return (
     <div>
-      <Hello message="Matheus" />  
-      <Hello message="SDS2" />
-      <Hello message="DevS" />    
+      <Counter/>     
     </div>
   );
 }
